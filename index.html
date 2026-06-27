@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Colab notebooks, slides and participant guide for Machine Learning and Deep Learning for Food Research.">
+  <title>ML &amp; DL for Food Research — Workshop Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Newsreader:opsz,wght@6..72,500;6..72,650&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to notebooks</a>
+  <header class="hero">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="wordmark" href="#top" aria-label="Workshop home"><span>Food</span> / AI Lab</a>
+      <div class="nav-links">
+        <a href="#start">Start here</a>
+        <a href="#session-6">Session 6</a>
+        <a href="#session-9">Session 9</a>
+        <a class="nav-button" href="assets/participant-guide.pdf">Guide PDF</a>
+      </div>
+    </nav>
+
+    <div class="hero-grid" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">Participant workspace · 2026</p>
+        <h1>Machine Learning &amp;<br><em>Deep Learning</em><br>for Food Research</h1>
+        <p class="intro">Ten browser-ready experiments. No Python installation. Pick a notebook, make your own copy, and move from food data to an interpretable result.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#session-6">Choose a notebook <span aria-hidden="true">↓</span></a>
+          <a class="button quiet" href="https://drive.google.com/drive/folders/1yGxxdmD8MvvsRylIGYPqpnAT6Yg7te9C">Open workshop files ↗</a>
+        </div>
+      </div>
+      <aside class="specimen-card" aria-label="Workshop quick response code">
+        <div class="card-index">LAB ACCESS / 01</div>
+        <img src="assets/workshop-qr.png" alt="QR code for this workshop page" width="220" height="220">
+        <p>Scan once. This page remains the stable home for notebooks, slides and updates.</p>
+        <div class="specimen-meta"><span>Runtime</span><strong>Google Colab</strong></div>
+        <div class="specimen-meta"><span>Default</span><strong>CPU · Free tier</strong></div>
+      </aside>
+    </div>
+    <div class="hero-ruler" aria-hidden="true"></div>
+  </header>
+
+  <main id="main">
+    <section class="start section" id="start">
+      <div class="section-label">Protocol 00</div>
+      <div class="section-heading">
+        <p class="eyebrow">Three steps, then science</p>
+        <h2>Start here</h2>
+      </div>
+      <ol class="steps">
+        <li><span class="step-number">01</span><div><h3>Open</h3><p>Choose a notebook below and select <strong>Open in Colab</strong>.</p></div></li>
+        <li><span class="step-number">02</span><div><h3>Make it yours</h3><p>Use <strong>File → Save a copy in Drive</strong> before changing anything.</p></div></li>
+        <li><span class="step-number">03</span><div><h3>Run</h3><p>Choose <strong>Runtime → Run all</strong>. The matching dataset downloads automatically.</p></div></li>
+      </ol>
+      <div class="notice"><strong>No Drive mount.</strong> The notebooks do not request access to your Google Drive files.</div>
+    </section>
+
+    <section class="resources section">
+      <div class="section-label">Reference</div>
+      <div class="section-heading">
+        <p class="eyebrow">Keep these nearby</p>
+        <h2>Slides &amp; field notes</h2>
+      </div>
+      <div class="resource-grid">
+        <a class="resource" href="https://drive.google.com/file/d/1Krql-2qFbN7DLpL2XV8aEQoLcgwuVe3y/view"><span>05</span><strong>Introduction to Deep Learning</strong><small>Slide deck · Google Drive ↗</small></a>
+        <a class="resource" href="https://drive.google.com/file/d/1TeFOD1zC7IABg9Agd6vUPWyNfw_AJAvG/view"><span>06</span><strong>Deep Learning Hands-on</strong><small>Slide deck · Google Drive ↗</small></a>
+        <a class="resource" href="https://drive.google.com/file/d/1RB98060hyShcS24hC93bioszoeRzHTgV/view"><span>09</span><strong>Group Deep Learning Challenge</strong><small>Slide deck · Google Drive ↗</small></a>
+        <a class="resource accent" href="assets/participant-guide.pdf"><span>PDF</span><strong>Participant Quick-start</strong><small>Two-page guide · Download ↓</small></a>
+      </div>
+    </section>
+
+    <section class="notebooks section dark" id="session-6">
+      <div class="section-label">Guided lab</div>
+      <div class="section-heading">
+        <p class="eyebrow">Session 6 · Follow the evidence</p>
+        <h2>Five ways to model food data</h2>
+        <p>Each notebook pairs one data type with a compact TensorFlow/Keras model. Start anywhere.</p>
+      </div>
+      <div class="notebook-grid">
+        <article class="notebook-card">
+          <div class="card-top"><span class="number">01</span><span class="tag">Tabular · MLP</span></div>
+          <h3>Shelf-life prediction</h3><p>Estimate shelf life from physicochemical measurements and storage conditions.</p>
+          <a href="https://colab.research.google.com/github/khairuladib94/dl-food-research/blob/main/session-6/notebooks/01_tabular_mlp_shelf_life_tensorflow_keras.ipynb">Open in Colab <span>↗</span></a>
+        </article>
+        <article class="notebook-card">
+          <div class="card-top"><span class="number">02</span><span class="tag">Images · CNN</span></div>
+          <h3>Fruit defect detection</h3><p>Classify compact synthetic fruit images as clean or defective.</p>
+          <a href="https://colab.research.google.com/github/khairuladib94/dl-food-research/blob/main/session-6/notebooks/02_image_cnn_fruit_defect_tensorflow_keras.ipynb">Open in Colab <span>↗</span></a>
+        </article>
+        <article class="notebook-card">
+          <div class="card-top"><span class="number">03</span><span class="tag">Spectra · 1D CNN</span></div>
+          <h3>NIR adulteration detection</h3><p>Learn discriminative patterns across simulated near-infrared spectra.</p>
+          <a href="https://colab.research.google.com/github/khairuladib94/dl-food-research/blob/main/session-6/notebooks/03_spectroscopy_1dcnn_tensorflow_keras.ipynb">Open in Colab <span>↗</span></a>
+        </article>
+        <article class="notebook-card">
+          <div class="card-top"><span class="number">04</span><span class="tag">Sequence · BiLSTM</span></div>
+          <h3>Fermentation risk</h3><p>Read multivariate sensor sequences to identify fermentation deviations.</p>
+          <a href="https://colab.research.google.com/github/khairuladib94/dl-food-research/blob/main/session-6/notebooks/04_timeseries_bilstm_tensorflow_keras.ipynb">Open in Colab <span>↗</span></a>
+        </article>
+        <article class="notebook-card">
+          <div class="card-top"><span class="number">05</span><span class="tag">Spectra · Autoencoder</span></div>
+          <h3>Anomaly screening</h3><p>Flag unusual spectra using reconstruction error from normal samples.</p>
+          <a href="https://colab.research.google.com/github/khairuladib94/dl-food-research/blob/main/session-6/notebooks/05_autoencoder_anomaly_tensorflow_keras.ipynb">Open in Colab <span>↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="notebooks section" id="session-9">
+      <div class="section-label">Team challenge</div>
+      <div class="section-heading">
+        <p class="eyebrow">Session 9 · Change one factor</p>
+        <h2>Your group experiment</h2>
+        <p>Run the baseline, make two controlled changes, and defend the result in five slides.</p>
+      </div>
+      <div class="notebook-grid light-grid">
+        <article class="notebook-card"><div class="card-top"><span class="number">G1</span><span class="tag">Regression</span></div><h3>Bakery shelf life</h3><p>Compare MLP design choices for tabular shelf-life prediction.</p><a href="https://colab.research.google.com/github/khairuladib94/dl-food-research/blob/main/session-9/notebooks/01_group1_bakery_shelf_life_mlp.ipynb">Open group notebook <span>↗</span></a></article>
+        <article class="notebook-card"><div class="card-top"><span class="number">G2</span><span class="tag">Classification</span></div><h3>Fruit quality</h3><p>Test compact CNN changes on three visual quality classes.</p><a href="https://colab.research.google.com/github/khairuladib94/dl-food-research/blob/main/session-9/notebooks/02_group2_fruit_quality_cnn.ipynb">Open group notebook <span>↗</span></a></article>
+        <article class="notebook-card"><div class="card-top"><span class="number">G3</span><span class="tag">Regression</span></div><h3>NIR moisture</h3><p>Predict moisture from spectra and compare 1D CNN settings.</p><a href="https://colab.research.google.com/github/khairuladib94/dl-food-research/blob/main/session-9/notebooks/03_group3_nir_moisture_1dcnn.ipynb">Open group notebook <span>↗</span></a></article>
+        <article class="notebook-card"><div class="card-top"><span class="number">G4</span><span class="tag">Classification</span></div><h3>Fermentation deviation</h3><p>Compare recurrent layers on time-dependent process signals.</p><a href="https://colab.research.google.com/github/khairuladib94/dl-food-research/blob/main/session-9/notebooks/04_group4_fermentation_gru.ipynb">Open group notebook <span>↗</span></a></article>
+        <article class="notebook-card"><div class="card-top"><span class="number">G5</span><span class="tag">Unsupervised</span></div><h3>Edible-oil anomaly</h3><p>Tune an autoencoder threshold for spectral anomaly screening.</p><a href="https://colab.research.google.com/github/khairuladib94/dl-food-research/blob/main/session-9/notebooks/05_group5_oil_autoencoder.ipynb">Open group notebook <span>↗</span></a></article>
+      </div>
+    </section>
+
+    <section class="troubleshooting section">
+      <div class="section-label">If needed</div>
+      <div class="section-heading"><p class="eyebrow">Fast recovery</p><h2>Troubleshooting</h2></div>
+      <details><summary>File not found</summary><p>Run the first setup cell again. It downloads only the dataset required by that notebook.</p></details>
+      <details><summary>Runtime disconnected</summary><p>Reconnect, then use Runtime → Run all. Colab runtimes are temporary; your notebook copy remains in Drive.</p></details>
+      <details><summary>Old or confusing output</summary><p>Choose Runtime → Disconnect and delete runtime, reconnect, then Run all.</p></details>
+      <details><summary>No GPU available</summary><p>Continue with CPU. These teaching models are deliberately compact and do not require a GPU.</p></details>
+      <div class="backup-row">
+        <a class="button primary" href="https://drive.google.com/uc?id=1Y2eex6Hbf9FFcNl06Khf_X_w4TMc0bBd&amp;export=download">Download backup ZIP ↓</a>
+        <a class="button quiet" href="https://github.com/khairuladib94/dl-food-research">View source on GitHub ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Food / AI Lab</strong> · Machine Learning and Deep Learning for Food Research</p>
+    <p>Synthetic teaching data · 2026</p>
+  </footer>
+</body>
+</html>

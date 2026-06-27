@@ -1,0 +1,5 @@
+.DS_Store
+.ipynb_checkpoints/
+.workshop-data/
+session-9/figures/
+__pycache__/
