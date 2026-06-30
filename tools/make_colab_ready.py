@@ -22,6 +22,7 @@ NOTEBOOKS = {
     "session-9/notebooks/03_group3_nir_moisture_1dcnn.ipynb": "group3_nir_moisture.npz",
     "session-9/notebooks/04_group4_fermentation_gru.ipynb": "group4_fermentation_deviation.npz",
     "session-9/notebooks/05_group5_oil_autoencoder.ipynb": "group5_oil_anomaly.npz",
+    "session-9/notebooks/06_group6_tasting_feedback_text_classifier.ipynb": "group6_tasting_feedback.csv",
 }
 
 

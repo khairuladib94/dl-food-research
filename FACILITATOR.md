@@ -7,7 +7,7 @@
 3. Demonstrate **Open in Colab**, **File > Save a copy in Drive**, and
    **Runtime > Run all**.
 4. Session 6 participants may work through any of the five guided case studies.
-5. For Session 9, assign one group notebook to each group.
+5. For Session 9, assign one of the six group notebooks to each group.
 
 ## Ten-minute preflight
 

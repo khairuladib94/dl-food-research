@@ -16,7 +16,7 @@ does not mount Google Drive.
 ## Repository layout
 
 - `session-6/`: five guided TensorFlow/Keras case studies and datasets.
-- `session-9/`: five group challenge notebooks and datasets.
+- `session-9/`: six group challenge notebooks and datasets.
 - `assets/participant-guide.pdf`: two-page Colab quick-start guide.
 - `FACILITATOR.md`: delivery, fallback, and pre-workshop checks.
 - `tools/make_colab_ready.py`: reproducible notebook portability update.
